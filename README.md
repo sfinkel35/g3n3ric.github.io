@@ -1,11 +1,84 @@
-## Welcome to website of Team LMS2
-
 ### Team Roles & Members
 - Project Manager: [Graham Parker](https://homework2-130659619927.us-central1.run.app/home)
-- Artifacts Manager: James Chen
+- Artifacts Manager: [James Chen](/people/jchen.md)
 - Expert/Customer Liaison: Sean Finkel
 - Security/Assurance Manager: Mohsin Hossain
 - Project Facilitator: Shane Carr
+
+### Photos
+<section class="team">
+  <style>
+    .team {
+      --card-gap: 14px;
+      --radius: 10px;
+      --shadow: 0 6px 18px rgba(0,0,0,.08);
+      max-width: 600px;
+      margin: 24px auto;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-auto-rows: auto;
+      gap: var(--card-gap);
+    }
+
+    .member {
+      background: #111418;
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 14px;
+      text-align: center;
+      color: #eaecef;
+    }
+
+    .member img {
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border-radius: 8px;
+      display: block;
+    }
+
+    .member figcaption {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: .2px;
+    }
+
+    @media (max-width: 640px) {
+      .team-grid { grid-template-columns: 1fr; }
+      .leader { grid-column: auto; }
+    }
+  </style>
+
+  <div class="team-grid">
+    <figure class="member">
+      <img src="images/grahamParker.jpg" alt="Graham Parker">
+      <figcaption>Graham Parker</figcaption>
+    </figure>
+    <figure class="member">
+      <img src="images/jamesChen.png" alt="James Chen">
+      <figcaption>James Chen</figcaption>
+    </figure>
+    <!-- <figure class="member">
+      <img src="images/sean-finkel.jpg" alt="Sean Finkel">
+      <figcaption>Sean Finkel</figcaption>
+    </figure> -->
+    <figure class="member">
+      <img src="images/mohsinHossain.png" alt="Mohsin Hossain">
+      <figcaption>Mohsin Hossain</figcaption>
+    </figure>
+    <!-- <figure class="member">
+      <img src="images/shane-carr.jpg" alt="Shane Carr">
+      <figcaption>Shane Carr</figcaption>
+    </figure> -->
+  </div>
+</section>
+
 
 ### Project Background
 TBD
