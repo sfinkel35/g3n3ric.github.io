@@ -1,5 +1,8 @@
+## Name
+James Chen
+
 ## Photo
 ![profile image](/images/jamesChen.png "James Chen")
 
-## Profile
+## Introduction
 Undergraduate student in MSU, majoring computer science.

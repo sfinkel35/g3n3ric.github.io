@@ -2,8 +2,8 @@
 - Project Manager: [Graham Parker](https://homework2-130659619927.us-central1.run.app/home)
 - Artifacts Manager: [James Chen](/people/jchen.md)
 - Expert/Customer Liaison: Sean Finkel
-- Security/Assurance Manager: Mohsin Hossain
-- Project Facilitator: Shane Carr
+- Security/Assurance Manager: [Mohsin Hossain](/people/mHossain.md)
+- Project Facilitator: [Shane Carr](/people/sCarr.md)
 
 ### Photos
 <section class="team">
@@ -12,8 +12,8 @@
       --card-gap: 14px;
       --radius: 10px;
       --shadow: 0 6px 18px rgba(0,0,0,.08);
-      max-width: 600px;
-      margin: 24px auto;
+      max-width: 1000px;
+      margin: 16px auto;
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", sans-serif;
     }
 
@@ -72,10 +72,10 @@
       <img src="images/mohsinHossain.png" alt="Mohsin Hossain">
       <figcaption>Mohsin Hossain</figcaption>
     </figure>
-    <!-- <figure class="member">
-      <img src="images/shane-carr.jpg" alt="Shane Carr">
+    <figure class="member">
+      <img src="images/shaneCarr.png" alt="Shane Carr">
       <figcaption>Shane Carr</figcaption>
-    </figure> -->
+    </figure>
   </div>
 </section>
 
